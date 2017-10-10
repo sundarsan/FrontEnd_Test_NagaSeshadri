@@ -1,0 +1,261 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: ProximaNova;
+}
+
+body header {
+  height: 61px;
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: #2e353d;
+}
+
+body header .title {
+  height: 60px;
+  width: 264px;
+  display: inline-block;
+  background-color: #1e2025;
+}
+
+body header .title img {
+  margin-top: 17px;
+  height: 25px;
+  width: 225px;
+}
+
+body header .usertitle {
+  width: 125px;
+  display: inline-block;
+  float: right;
+  padding: 20px;
+}
+body aside {
+  font-size: 16px;
+  width: 264px;
+  position: relative;
+  display: block;
+  float: left;
+  height: 127vh;
+  background-color: #2f323a;
+}
+
+body aside .searchcontainer {
+  display: block;
+  border-bottom: 2px solid #5a5b5d;
+  margin: 0px 13px;
+}
+
+body aside .searchcontainer .navigate {
+  background-color: #2e353d;
+  border: none;
+  text-align: left;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 0px;
+  display: block;
+  width: 70%;
+}
+body aside ul {
+  list-style: none;
+  margin-top: 10px; 
+}
+
+body aside ul li {
+   display: block;
+}
+    
+
+body aside ul li a  {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 15px;
+  display: block;
+}
+body aside ul li a:active, body aside ul li a:focus {
+  background-color: #171d20;
+}
+
+body main {
+  display: block;
+  background-color: #f5f5fa;
+  overflow: auto;
+}
+
+body main .main{
+  display: inline-block;
+  width: 98%;
+  height: 96vh;
+  padding: 1%;
+  overflow: auto;
+}
+
+body main .main .column-div {
+  width: 30%;
+  display: block;
+  float: left;
+  padding: 1%;
+}
+
+body main .main .column-div .newscontent{
+    background-color: #ffffff ;
+    float: left;
+    width: 350px;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    border-radius: 3px;
+  box-shadow: 0px 1px 2px 2px #ccddee;
+
+}
+
+body main .main .column-div .newscontent .news-header-title {
+  display: block;
+  padding: 8px;
+}
+
+body main .main .column-div .newscontent .news-header-title h5 {
+  float: left;
+  color: #669fd0;
+}
+
+body main .main .column-div .newscontent .news-header-title p {
+  font-size: 10px;
+  text-align: right;
+  color: #5c9df5;
+}
+
+body main .main .column-div .newscontent .img {
+  width: 100%;
+  height: 120px;
+}
+
+body main .main .column-div .newscontent .subtitle {
+  padding: 10px;
+  color: #636363;
+}
+
+body main .main .column-div .newscontent .newsdescription {
+  font-size: 14px;
+  padding: 10px 10px 18px 10px;
+  color: #636363;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+}
+
+body main .main .column-div .newscontent .actionicon {
+  padding: 20px;
+  border-top: 1px solid #ccddee;
+}
+
+body main .main .column-div .newscontent .actionicon span {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin-top: 5px;
+  color: #767676;
+}
+
+body main .chart {
+  max-width: 95%;
+  width: 95%;
+  display: inline-block;
+  padding: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body main #line-container {
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.piechart {
+  margin-top: 20px; 
+  max-width: 100%;
+  width: 100%;
+  display: inline-block; 
+}
+
+.piechart > #bar-container {
+  width: 55%;
+  display: inline-block; 
+  padding: 10px;
+}
+
+.piechart > #pie-container {
+  width: 37%;
+  display: inline-block; 
+  padding: 10px;
+}
+
+@media (min-width: 767px) {
+  .nav-side-menu .menu-list .menu-content {
+    display: block;
+  }
+}
+
+@media (max-width: 955px) {
+  body main .main {
+    width: 60%;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sidebarlist{
+  padding-right: 15px;
+  color: #3939d2 ;
+  padding-right: 16px;
+}
+
+.admin-name {
+  display: inline-block;
+}
+
+.image-position {
+  display: inline;
+}
+
+.floar-right {
+  float: right;
+}
+
+.fa-color {
+  color: #c0c8d1;
+}
+
+.fa-text-padding {
+  padding-left: 5px;
+}
+
+.clearclass {
+    background-color: #ffffff;
+    clear: left;
+    width: 19%;
+}
+
+.imgdiv {
+    text-align: center;
+}
+
+.more-margin {
+  margin-top: 100px;
+}
